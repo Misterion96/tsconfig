@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "strict": true,                            // Enables all strict type-checking options
+    "strictNullChecks": true,                  // Strict null and undefined checks
+    "strictFunctionTypes": true,               // Strict function parameter type checking
+    "strictBindCallApply": true,               // Strict checking for bind, call, and apply
+    "strictPropertyInitialization": true,      // Requires class properties to be initialized
+    "noImplicitThis": true,                    // Disallows implicit use of this
+    "noImplicitAny": true,                     // Disallows implicit any type
+    "noUncheckedSideEffectImports": true,      // Disallows imports with possible side effects without proper usage
+    "noImplicitOverride": true,                // Requires explicit override modifier
+    "alwaysStrict": true,                      // Adds "use strict" and enforces JS strict mode
+    "useUnknownInCatchVariables": true,        // Uses unknown instead of any in catch
+
+    // Additional checks
+    "noUnusedLocals": true,                    // Error on unused local variables
+    "noUnusedParameters": true,                // Error on unused function parameters
+    "noImplicitReturns": true,                 // Requires return in all function branches
+    "noFallthroughCasesInSwitch": true,        // Disallows fallthrough in switch statements
+    "noPropertyAccessFromIndexSignature": true,// Requires indexed access for index signatures
+    "noUncheckedIndexedAccess": true,          // Adds undefined when accessing an index
+    "allowUnreachableCode": false,             // Disallows unreachable code
+    "allowUnusedLabels": false,                // Disallows unused labels
+    "allowImportingTsExtensions": false,       // Restrict import with *.ts, *.tsx
+    "allowJs": false,                          // Disallows JavaScript files in the project
+    "allowUmdGlobalAccess": false,             // Disallows accessing UMD module globals from modules
+    "allowSyntheticDefaultImports": false,     // Disables default imports from modules without default export
+    "exactOptionalPropertyTypes": true,        // Strict checking of optional properties
+    "verbatimModuleSyntax": true,              // Strict checking of import/export syntax
+
+    // Specific settings
+    "noErrorTruncation": true,                 // Displays full error messages
+    "skipDefaultLibCheck": false,              // Checks TypeScript standard libraries
+    "skipLibCheck": false,                     // Full type definition file checking
+    "forceConsistentCasingInFileNames": true,  // Enforces consistent file name casing
+
+    // Common
+    "pretty": true
+  }
+}
