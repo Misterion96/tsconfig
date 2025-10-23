@@ -1,16 +1,22 @@
 {
   "name": "@dolgikh-maks/tsconfig",
   "version": "1.0.0",
+  "private": false,
   "description": "Opinionated TypeScript preset that gives you production-grade strictness out of the box. No setup, no noise — just consistent safety.",
-  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "typescript strict",
+    "strict mode"
+  ],
   "author": {
     "name": "Maks Dolgikh",
     "url": "https://www.linkedin.com/in/max-dolgikh/"
   },
   "main": "tsconfig.json",
-  "keywords": ["typescript", "tsconfig", "typescript strict", "strict mode"],
+  "license": "MIT",
   "repository": {
-    "url": "https://github.com/Misterion96/tsconfig"
+    "url": "git+https://github.com/Misterion96/tsconfig.git"
   },
   "peerDependencies": {
     "typescript": "^5"
